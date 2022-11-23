@@ -1,0 +1,71 @@
+body {
+    background: #17171b;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2% 0 2%;
+}
+nav a {
+    color: #55575a;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25vw;
+    font-weight: bold;
+    position: relative;
+    right: 20vh;
+    transition: .1s;
+}
+nav a:hover {
+    color: white;
+}
+nav {
+    display: flex;
+    gap: 25px;
+}
+#active {
+    color: #c8c8c9;
+}
+.logo {
+    font-size: 1.3vw;
+    color: #c8c8c9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header i {
+    color: #c8c8c9;
+    font-size: 1.5vw;
+    cursor: pointer;
+    transition: .1s;
+}
+header i:hover {
+    color: white;
+}
+.icons-cont {
+    display: flex;
+    gap: 30px;
+}
+#angle-down {
+    color: #55575a;
+    font-size: 1.1vw;
+}
+#angle-down:hover {
+    color: white;
+}
+.user-cont {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.hr-one {
+    background: #242429;
+    border: none;
+    width: 100%;
+    height: .44px;
+    margin: .5% 0 0 0;
+}
+.left-container {
+    width: 30%;
+    border-right: .44px solid #242429;
+    height: 100vh;
+}
